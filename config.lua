@@ -15,38 +15,47 @@ Config.HandCuffItem = 'handcuffs'
 Config.LicenseRank = 2
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(440.085, -974.924, 30.689),
-        [2] = vector3(-449.811, 6012.909, 31.815),
+--        [1] = vector3(440.085, -974.924, 30.689),
+		[1] = vector3(441.27, -982.0, 30.69),
+        [2] = vector3(-449.811, 6012.909, 31.815),  --paleto
     },
     ["vehicle"] = {
-        [1] = vector4(448.159, -1017.41, 28.562, 90.654),
-        [2] = vector4(471.13, -1024.05, 28.17, 274.5),
-        [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
+ --       [1] = vector4(448.159, -1017.41, 28.562, 90.654),  --puts away
+        [1] = vector4(449.59, -976.21, 25.7, 305.64),  --puts away
+--        [2] = vector4(471.13, -1024.05, 28.17, 274.5),     --pulls out
+        [2] = vector4(435.62, -975.96, 25.7, 89.5),     --pulls out
+        [3] = vector4(-455.39, 6002.02, 31.34, 87.93),   --paleto
     },
     ["stash"] = {
-        [1] = vector3(453.075, -980.124, 30.889),
+--        [1] = vector3(453.075, -980.124, 30.889),
+        [1] = vector3(459.88, -984.88, 30.71),
     },
     ["impound"] = {
         [1] = vector4(436.68, -1007.42, 27.32, 180.0),
-        [2] = vector4(-436.14, 5982.63, 31.34, 136.0),
+        [2] = vector4(-436.14, 5982.63, 31.34, 136.0),  --paleto
     },
     ["helicopter"] = {
         [1] = vector4(449.168, -981.325, 43.691, 87.234),
-        [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
+        [2] = vector4(-475.43, 5988.353, 31.716, 31.34),  --paleto
     },
     ["armory"] = {
-        [1] = vector3(462.23, -981.12, 30.68),
+--        [1] = vector3(462.23, -981.12, 30.68),
+        [1] = vector3(487.28, -997.16, 30.69),
     },
     ["trash"] = {
         [1] = vector3(439.0907, -976.746, 30.776),
     },
     ["fingerprint"] = {
-        [1] = vector3(460.9667, -989.180, 24.92),
+--        [1] = vector3(460.9667, -989.180, 24.92),
+        [1] = vector3(472.94, -1007.51, 26.27),
     },
     ["evidence"] = {
-        [1] = vector3(442.1722, -996.067, 30.689),
-        [2] = vector3(451.7031, -973.232, 30.689),
-        [3] = vector3(455.1456, -985.462, 30.689),
+--        [1] = vector3(442.1722, -996.067, 30.689),
+        [1] = vector3(475.07, -996.66, 26.27),
+--        [2] = vector3(451.7031, -973.232, 30.689),
+        [2] = vector3(474.61, -994.53, 26.27),
+--        [3] = vector3(455.1456, -985.462, 30.689),
+        [3] = vector3(472.59, -996.31, 26.27),
     },
     ["stations"] = {
         [1] = {label = "Police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
@@ -102,59 +111,68 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+	--	["police"] = "Police Car 1",
+		["police2"] = "Police Car Buffalo",
+		["police3"] = "Police Car Charger",
+		["police4"] = "Unmarked Crown Vic",
+		["policeb"] = "Police Bike",
+		["policet"] = "Transport Van",
+	--	["sheriff"] = "Sheriff Car 1",
+		["sheriff2"] = "Sheriff Granger",
 	},
 	-- Grade 1
 	[1] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+	--	["police"] = "Police Car 1",
+    ["police2"] = "Police Car Buffalo",
+    ["police3"] = "Police Car Charger",
+    ["police4"] = "Unmarked Crown Vic",
+    ["policeb"] = "Police Bike",
+    ["policet"] = "Transport Van",
+--	["sheriff"] = "Sheriff Car 1",
+    ["sheriff2"] = "Sheriff Granger",
 
 	},
 	-- Grade 2
 	[2] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+	--	["police"] = "Police Car 1",
+    ["police2"] = "Police Car Buffalo",
+    ["police3"] = "Police Car Charger",
+    ["police4"] = "Unmarked Crown Vic",
+    ["policeb"] = "Police Bike",
+    ["policet"] = "Transport Van",
+--	["sheriff"] = "Sheriff Car 1",
+    ["sheriff2"] = "Sheriff Granger",
 	},
 	-- Grade 3
 	[3] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+	--	["police"] = "Police Car 1",
+    ["police2"] = "Police Car Buffalo",
+    ["police3"] = "Police Car Charger",
+    ["police4"] = "Unmarked Crown Vic",
+    ["policeb"] = "Police Bike",
+    ["policet"] = "Transport Van",
+--	["sheriff"] = "Sheriff Car 1",
+    ["sheriff2"] = "Sheriff Granger",
 	},
 	-- Grade 4
 	[4] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+	--	["police"] = "Police Car 1",
+    ["police2"] = "Police Car Buffalo",
+    ["police3"] = "Police Car Charger",
+    ["police4"] = "Unmarked Crown Vic",
+    ["policeb"] = "Police Bike",
+    ["policet"] = "Transport Van",
+--	["sheriff"] = "Sheriff Car 1",
+    ["sheriff2"] = "Sheriff Granger",
+        ["pol718"] = "Interceptor - Porsche",
+        ["polamggtr"] = "Interceptor - AMG",
+        ["polchiron"] = "Interceptor - Bugatti",
+        ["polf430"] = "Interceptor - Ferrari",
+        ["polmp4"] = "Interceptor - McLaren",
+        ["machito1"] = "Land Cruiser",
+        ["polgt500"] = "Interceptor - Ford GT500",
+        ["shergauntlet"] = "Gauntlet",
+        ["polrevent"] = "Interceptor - Lamborghini",
 	}
 }
 
@@ -185,7 +203,7 @@ Config.Radars = {
 
 Config.CarItems = {
     [1] = {
-        name = "heavyarmor",
+        name = "armor",
         amount = 2,
         info = {},
         type = "item",
@@ -199,7 +217,7 @@ Config.CarItems = {
         slot = 2,
     },
     [3] = {
-        name = "police_stormram",
+        name = "advancedrepairkit",
         amount = 1,
         info = {},
         type = "item",
@@ -238,7 +256,7 @@ Config.Items = {
         },
         [3] = {
             name = "weapon_pumpshotgun",
-            price = 0,
+            price = 1200,
             amount = 1,
             info = {
                 serie = "",
@@ -252,7 +270,7 @@ Config.Items = {
         },
         [4] = {
             name = "weapon_smg",
-            price = 0,
+            price = 1200,
             amount = 1,
             info = {
                 serie = "",
@@ -267,7 +285,7 @@ Config.Items = {
         },
         [5] = {
             name = "weapon_carbinerifle",
-            price = 0,
+            price = 1200,
             amount = 1,
             info = {
                 serie = "",
@@ -292,7 +310,7 @@ Config.Items = {
         [7] = {
             name = "pistol_ammo",
             price = 0,
-            amount = 5,
+            amount = 50,
             info = {},
             type = "item",
             slot = 7,
@@ -300,7 +318,7 @@ Config.Items = {
         },
         [8] = {
             name = "smg_ammo",
-            price = 0,
+            price = 100,
             amount = 5,
             info = {},
             type = "item",
@@ -309,7 +327,7 @@ Config.Items = {
         },
         [9] = {
             name = "shotgun_ammo",
-            price = 0,
+            price = 100,
             amount = 5,
             info = {},
             type = "item",
@@ -318,7 +336,7 @@ Config.Items = {
         },
         [10] = {
             name = "rifle_ammo",
-            price = 0,
+            price = 100,
             amount = 5,
             info = {},
             type = "item",
@@ -380,15 +398,33 @@ Config.Items = {
             authorizedJobGrades = {0, 1, 2, 3, 4}
         },
         [17] = {
-            name = "heavyarmor",
+            name = "spray_remover",
             price = 0,
             amount = 50,
             info = {},
             type = "item",
-            slot = 17,
+            slot = 18,
             authorizedJobGrades = {0, 1, 2, 3, 4}
-        }
-    }
+        },
+        [18] ={
+            name = "ifaks",
+            price = 0,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 19,
+            authorizedJobGrades = {0, 1, 2, 3, 4}
+        },
+        [19] ={
+            name = "bandage",
+            price = 0,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 20,
+            authorizedJobGrades = {0, 1, 2, 3, 4}
+        },
+    }    
 }
 
 Config.VehicleSettings = {
